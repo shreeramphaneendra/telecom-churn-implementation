@@ -1,0 +1,2 @@
+# telecom-churn-implementation
+Analyze telecom churn dataset to identify factors influencing customer retention and churn rate.
