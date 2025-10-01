@@ -1,10 +1,7 @@
+# We must run this code in google colab
+# if you need to run it in your system make sure you change the file path and install pandas using pip install pandas
+from google.colab import drive
+drive.mount('/content/drive')
 import pandas as pd
-import platform
-# Replace 'path_to_your_file.csv' with the actual path to your CSV file
-file_path = '/Users/shreeramssp/Desktop/programming/python programs/churn-bigml-20.csv'
-
-# Read the CSV file
-data = pd.read_excel(file_path)
-
-# Display the first few rows of the dataset
-print(data.head())
+df=pd.read_csv("/content/drive/My Drive/Colab Notebooks/churn-bigml-20.csv.xls")
+print(df.head())
